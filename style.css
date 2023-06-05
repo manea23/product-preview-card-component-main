@@ -94,7 +94,7 @@ h1{
 }
 
 
-@media(max-width:768px) {
+@media(max-width:600px) {
 
    
     .card{
@@ -103,8 +103,8 @@ h1{
         grid-template-columns: 1fr ;
         width: 100%;
         min-width: 300px;
-        height: auto;
-        margin: 10px;
+        
+      
         
     }
 
