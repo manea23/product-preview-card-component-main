@@ -1,0 +1,127 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,500;0,700;0,800;1,500;1,700;1,800&family=Montserrat:ital,wght@0,500;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@300&family=Hanken+Grotesk:ital,wght@0,500;0,700;0,800;1,500;1,700;1,800&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:  hsl(30, 38%, 92%);
+    font-size: 14px;
+    font-family:Montserrat, sans-serif ;
+    
+
+}
+.image2{
+    display: none;
+}
+.image{
+    height: 500px;
+    border-radius: 20px 0 0 20px;
+    max-width: 300px;
+    display: grid;
+}
+.card{
+    box-shadow: rgb(0, 0,0,0.24) 0px 3px 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 600px;
+    align-items: center;
+    border-radius: 20px;
+    background: white;
+}
+
+.description{
+    height: 400px;
+    margin: 2.3rem;
+    
+    
+}
+
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(158, 36%, 37%);
+    border-radius: 10px;
+    color: white;
+    gap: 1rem;
+    cursor: pointer;
+ 
+    
+}
+.cart:active{
+    background: hsl(158, 45%, 21%);;
+}
+
+.price{
+    display: flex;
+    gap: 1rem;
+
+    
+}
+
+span{
+    display: block;
+    margin-top: 25px;
+    text-decoration: line-through;
+}
+
+p{
+    color:hsl(228, 12%, 48%);
+}
+
+h2{
+    color: hsl(158, 36%, 37%);
+    font-weight: 700;
+    font-size: xx-large;
+    font-family: Fraunces,sans-serif;
+}
+
+.add{
+    color: white;
+}
+
+h1{
+    font-family: Fraunces,sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+
+@media(max-width:768px) {
+
+   
+    .card{
+    
+        display: block;
+        grid-template-columns: 1fr ;
+        width: 100%;
+        min-width: 300px;
+        height: auto;
+        margin: 10px;
+        
+    }
+
+
+
+
+        .image{
+
+            display: none;
+        }
+         .image2{
+            display: flex;
+            max-width: 100%;
+            border-radius: 10px 10px 0 0;
+             
+           
+         }        
+       }
+
+
